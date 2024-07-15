@@ -1,0 +1,192 @@
+@media only screen and (max-width: 600px) {
+
+    section {
+        height: 100vh;
+        padding: 100px 20px;
+    }
+
+
+    #header {
+        background-image: url("../assets/images/hero.png");
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    /*Header Section*/
+    .section-1 {
+        margin-top: 100px;
+    }
+
+    .description p {
+        text-align: left;
+    }
+
+    .digital {
+        text-align: left;
+        color: white;
+    }
+
+    .digital-text {
+        color: white;
+    }
+
+    .header_img {
+        display: none;
+    }
+
+    .contactus {
+        width: 150px;
+    }
+
+    /*Content Section*/
+
+    #content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .service {
+        flex: 0 0 100%;
+    }
+
+    .service-text {
+        margin: 0;
+        flex: 0 0 100%;
+    }
+
+    .service-text-1 {
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .responsive-br {
+        display: none;
+    }
+
+    .service-heading {
+        font-size: 25px;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+       
+    }
+
+    .item .card-img-top {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-body {
+        height: auto;
+       
+    }
+
+    /*Content Section*/
+
+
+    .visible-delay {
+        opacity: 1;
+        transform: translateX(0) translateY(0);
+        transition-delay: 1s;
+    }
+
+    .features img {
+        width: 56px;
+        height: 56px;
+    }
+
+    .features h2 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .features p {
+        font-size: 10px;
+    }
+
+    /*Content Section*/
+
+    .our-project {
+        overflow: hidden;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 22px;
+    }
+
+    .our-project-img {
+        display: none;
+    }
+
+    /*Content Section*/
+
+    .growth-card {
+        width: 137px;
+        height: 100px;
+    }
+
+    .growth-icon {
+        width: 15.38px;
+        height: 15.38px;
+        margin-top: 15px;
+    }
+
+    .grow-count {
+        font-size: 20px;
+    }
+
+    .achieved {
+        font-size: 10px;
+    }
+
+    .other {
+        margin-right: 11px;
+    }
+
+
+    /*Testimonial*/
+
+    .mar-1 {
+        margin-top: 20px;
+    }
+
+    .cli-feedback2 {
+        font-size: 35px;
+    }
+
+    .feedbacks h3 {
+        font-size: 14px;
+    }
+
+    .feedbacks span {
+        font-size: 14px;
+    }
+
+    .feedbacks span:nth-of-type(2) {
+
+        font-size: 14px;
+
+    }
+
+
+    /*Footer*/
+
+    #footer img {
+        width: 100%;
+        height: auto;
+    }
+}
